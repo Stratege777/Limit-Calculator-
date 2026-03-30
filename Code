@@ -1,0 +1,7 @@
+#User input function (f)
+	f = (input ('enter a function: '))
+#User input limit (x)
+	X = (input('enter a limit :'))
+	x= int(X)
+#Evaluation (eval())
+print(eval(f))
