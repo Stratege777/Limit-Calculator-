@@ -3,7 +3,7 @@ try :
 	f = (input ('enter a function: '))
 	#User input limit (x)
 	X = (input('enter a limit :'))
-	x= int(X)
+	x= float (X)
 	#Evaluation (eval())
 	print(eval(f))
 except :
